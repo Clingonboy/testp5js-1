@@ -5,8 +5,8 @@ class Carta {
         this.imgCarta = imgCarta
         this.x = 0
         this.y = 0
-        this.w = 25
-        this.h = 66
+        this.w = 50
+        this.h = 133
     }
 
     isOnMe(xclick, yclick){
