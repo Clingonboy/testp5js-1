@@ -65,8 +65,6 @@ function mousePressed() {
           carta.dragging = true;
           offsetX = mouseX - carta.x;
           offsetY = mouseY - carta.y;
-          //carta.x = mouseX;
-          //carta.y = mouseY;
         }
       });
     }
@@ -95,8 +93,6 @@ function updateCarte() {
     if (player.carte.length > 0) {
       player.carte.forEach(carta => {
         if (carta.dragging) {
-          //offsetX = mouseX - carta.x;
-          //offsetY = mouseY - carta.y;
           carta.x = mouseX - offsetX;
           carta.y = mouseY - offsetY;
         }
